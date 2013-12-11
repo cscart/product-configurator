@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>product_configurator</id>
+    <name>Product configurator</name>
+    <description><![CDATA[<i><strong>Deprecated</strong>. To be excluded from v. 4.1.1. Learn more in the <a href="http://forum.cs-cart.com/topic/33444-some-add-ons-to-be-excluded-from-cs-cart-411/">official announcement</a>.</i>]]></description>
+    <version>1.0</version>
+    <priority>300</priority>
+    <position>150</position>
+    <default_language>en</default_language>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+                    <item id="thumbnails_width">
+                        <name>Thumbnails width</name>
+                        <type>input</type>
+                        <default_value>120</default_value>
+                        <translations>
+                            <item lang="ru">Ширина иконок</item>
+                            <item lang="zh">缩略图宽度</item>
+                        </translations>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <translations>
+        <item for="name" lang="es">Configurador de productos</item>
+        <item for="name" lang="fr">Configurateur de produit</item>
+        <item for="name" lang="da">Produkt konfigurator</item>
+        <item for="name" lang="el">Διαμορφωτής προϊόντων</item>
+        <item for="name" lang="it">Configuratore di prodotto</item>
+        <item for="name" lang="ro">Configurator produse</item>
+        <item for="name" lang="ru">Конфигуратор товаров</item>
+        <item for="name" lang="sl">Konfigurator izdelka</item>
+        <item for="name" lang="zh">产品配置</item>
+        <item for="description" lang="ru"><![CDATA[<i><strong>Устаревший модуль</strong>. Модуль будет исключен из базовой поставки с версии 4.1.1. Узнайте больше в <a href="http://forum.cs-cart.com/topic/33444-some-add-ons-to-be-excluded-from-cs-cart-411/">официальном анонсе</a>.</i>]]></item>
+        <item for="description" lang="zh">可以创建产品与其他产品作为选项(例如,允许在商店购买物品时客户选择计算机组件)</item>
+    </translations>
+    <language_variables>
+        <item id="configuration" lang="en">Configuration</item>
+        <item id="configuration" lang="ru">Конфигурация</item>
+        <item id="configuration" lang="zh">配置</item>
+        <item id="configuration" lang="it">Configurazione</item>
+        <item id="configuration" lang="el">Διαμόρφωση</item>
+        <item id="configuration" lang="bg">Конфигурация</item>
+        <item id="configuration" lang="ro">Configurație</item>
+        <item id="configuration" lang="sl">Oblikovanje</item>
+        <item id="configuration" lang="da">konfiguration</item>
+        <item id="configuration" lang="es">Configuración</item>
+        <item id="configuration" lang="no">Konfigurasjon</item>
+
+        <item id="configurator" lang="en">Configurator</item>
+        <item id="configurator" lang="ru">Конфигуратор</item>
+        <item id="configurator" lang="zh">配置</item>
+        <item id="configurator" lang="it">Configuratore</item>
+        <item id="configurator" lang="el">Διαμορφωτής</item>
+        <item id="configurator" lang="bg">Конфигуратор</item>
+        <item id="configurator" lang="sl">Konfiguracija</item>
+        <item id="configurator" lang="da">konfiguration</item>
+        <item id="configurator" lang="fr">Configurateur</item>
+        <item id="configurator" lang="no">Konfigurator</item>
+
+        <item id="configurator_groups" lang="en">configurator groups</item>
+        <item id="configurator_groups" lang="ru">группы конфигуратора</item>
+        <item id="configurator_groups" lang="zh">配置组</item>
+        <item id="configurator_groups" lang="it">Gruppi di configuratore</item>
+        <item id="configurator_groups" lang="el">Ομάδες διαμορφωτή</item>
+        <item id="configurator_groups" lang="bg">конфигуратор групи</item>
+        <item id="configurator_groups" lang="ro">grupuri de configurator</item>
+        <item id="configurator_groups" lang="sl">Oblikovateljeve skupine</item>
+        <item id="configurator_groups" lang="da">konfiguration grup</item>
+        <item id="configurator_groups" lang="fr">configuration de groupes</item>
+        <item id="configurator_groups" lang="es">configurador de grupos</item>
+        <item id="configurator_groups" lang="no">konfiguratorgrupper</item>
+
+        <item id="configurator_menu_description" lang="en">Define the set of parameters and attributes for configurable products.</item>
+        <item id="configurator_menu_description" lang="ru">Задание параметров для конфигурируемых товаров.</item>
+        <item id="configurator_menu_description" lang="zh">为配置的产品定义设置的属性和参数.</item>
+        <item id="configurator_menu_description" lang="it">Imposta parametri ed attributi per i prodotti configurabili.</item>
+        <item id="configurator_menu_description" lang="el">Προσδιορίστε το σύνολο των παραμέτρων και τα γνωρίσματα για διαμορφώσημα προϊόντα..</item>
+        <item id="configurator_menu_description" lang="bg">Определяне на набор от параметри и атрибути за конфигурируеми продукти.</item>
+
+        <item id="product_configuration" lang="en">Product configuration</item>
+        <item id="product_configuration" lang="ru">Конфигурация товара</item>
+        <item id="product_configuration" lang="zh">产品配置</item>
+        <item id="product_configuration" lang="it">Configurazione prodotto</item>
+        <item id="product_configuration" lang="el">Διαμόρφωση προϊόντος</item>
+        <item id="product_configuration" lang="bg">Конфигурация на продукта</item>
+        <item id="product_configuration" lang="ro">Configurația produsului</item>
+        <item id="product_configuration" lang="sl">Oblikovanje proizvoda</item>
+        <item id="product_configuration" lang="da">Produkt konfiguration</item>
+        <item id="product_configuration" lang="fr">Configuration du produit</item>
+        <item id="product_configuration" lang="es">Configuración de producto</item>
+        <item id="product_configuration" lang="no">Produktkonfigurasjon</item>
+
+        <item lang="en" id="product_group">Product group</item>
+        <item lang="bg" id="product_group">Продуктова група</item>
+        <item lang="da" id="product_group">Produkt gruppe</item>
+        <item lang="el" id="product_group">Ομάδα προϊόντος</item>
+        <item lang="es" id="product_group">Grupo de producto</item>
+        <item lang="fr" id="product_group">Groupe de produit</item>
+        <item lang="it" id="product_group">gruppo prodotto</item>
+        <item lang="no" id="product_group">Produktgruppe</item>
+        <item lang="ro" id="product_group">Grup de produse</item>
+        <item lang="ru" id="product_group">Группа товара</item>
+        <item lang="sl" id="product_group">Skupina proizvodov</item>
+        <item lang="zh" id="product_group">产品组</item>
+        <item lang="en" id="pconf_company_update_denied">The 'Store' option is not editable for configurable products or the products in the configurator groups or classes.</item>
+        <item lang="ru" id="pconf_company_update_denied">Настройка 'Витрина' не может быть отредактирована для конфигурируемых товаров или товаров, которые включены в группу или класс конфигуратора.</item>
+        <item lang="zh" id="pconf_company_update_denied">"商店"选项配置的产品不可编辑或产品在配置组或类中.</item>
+        <item lang="en" id="steps">Steps</item>
+        <item lang="en" id="product_classes">Compatibility classes</item>
+        <item lang="en" id="required_configuration_group"><![CDATA[You cannot delete the <b>[product_name]</b> product because it is in the required group]]></item>
+        <item lang="en" id="configurable">Configurable</item>
+        <item lang="en" id="product_configurator">Product configurator</item>
+        <item lang="en" id="only_product_groups_notice">Only product groups with assigned steps are listed. You can assign steps on the</item>
+        <item lang="en" id="product_groups_page">Product groups page</item>
+        <item lang="en" id="add_product_group">Add product group</item>
+        <item lang="en" id="step">Step</item>
+        <item lang="en" id="group_name">Group name</item>
+        <item lang="en" id="default_configuration_products">Default configuration products</item>
+        <item lang="en" id="add_product_class">Add product class</item>
+        <item lang="en" id="add_new_steps">New step</item>
+        <item lang="en" id="add_step">Add step</item>
+        <item lang="en" id="all_configurable">Show all configurable products</item>
+        <item lang="en" id="add_configurable_product">Add configurable product</item>
+        <item lang="en" id="compatible_classes">Compatible classes</item>
+        <item lang="en" id="new_class">New class</item>
+        <item lang="en" id="editing_class">Editing class</item>
+
+        <item lang="bg" id="steps">Стъпки</item>
+        <item lang="bg" id="product_classes">Съвместимост на класове</item>
+        <item lang="bg" id="required_configuration_group"><![CDATA[Не може да изтриете продукта <b>[product_name]</b> ]]></item>
+        <item lang="bg" id="configurable">конфигуриране</item>
+        <item lang="bg" id="product_configurator">Конфигуратор на продукти</item>
+        <item lang="bg" id="add_product_group">Добави продуктова група</item>
+        <item lang="bg" id="step">Стъпка</item>
+        <item lang="bg" id="group_name">Име на група</item>
+        <item lang="bg" id="default_configuration_products">Продукти за конфигурацията по подразбиране</item>
+        <item lang="bg" id="add_product_class">Добави продуктов клас</item>
+        <item lang="bg" id="add_new_steps">Добави нова стъпка</item>
+        <item lang="bg" id="add_step">Добави стъпка</item>
+        <item lang="bg" id="all_configurable">Покажи всички конфигурируеми продукти</item>
+        <item lang="bg" id="add_configurable_product">Добави конфигуриране на продукта</item>
+        <item lang="bg" id="compatible_classes">Съвместими класове</item>
+        <item lang="bg" id="new_class">Нов клас</item>
+        <item lang="bg" id="editing_class">Редактиране на клас</item>
+
+        <item lang="da" id="steps">Trin</item>
+        <item lang="da" id="product_classes">Kompatibilitet klasser</item>
+        <item lang="da" id="required_configuration_group"><![CDATA[Du kan ikke slette <b>[product_name]</b> produkt, fordi det er i den ønskede gruppe]]></item>
+        <item lang="da" id="configurable">konfigurer</item>
+        <item lang="da" id="product_configurator">Produkt konfigurator</item>
+        <item lang="da" id="add_product_group">tilføj produkt gruppe</item>
+        <item lang="da" id="step">Trin</item>
+        <item lang="da" id="group_name">Gruppe navn</item>
+        <item lang="da" id="default_configuration_products">Standard Konfiguration produkt</item>
+        <item lang="da" id="add_product_class">Tilføj produkt klasse</item>
+        <item lang="da" id="add_new_steps">Nyt nye trin</item>
+        <item lang="da" id="add_step">tilføj trin</item>
+        <item lang="da" id="all_configurable">Vis alle konfigurerbare produkter</item>
+        <item lang="da" id="add_configurable_product">Tilføj konfigurerbare produkt</item>
+        <item lang="da" id="compatible_classes">Kompatibel klasser</item>
+        <item lang="da" id="new_class">Nye klasse</item>
+        <item lang="da" id="editing_class">redigere class</item>
+
+        <item lang="el" id="steps">Βήματα</item>
+        <item lang="el" id="product_classes">Τάξεις συμβατότητας</item>
+        <item lang="el" id="required_configuration_group"><![CDATA[Δεν μπορείτε να διαγράψετε <b> [PRODUCT_NAME] </ b> το προϊόν, επειδή είναι στην απαιτούμενη ομάδα]]></item>
+        <item lang="el" id="configurable">Ικανό να διαμορφωθεί</item>
+        <item lang="el" id="product_configurator">Διαμορφωτής προϊόντων</item>
+        <item lang="el" id="add_product_group">Προσθήκη ομάδων προϊόντος</item>
+        <item lang="el" id="step">Βήμα</item>
+        <item lang="el" id="group_name">Όνομα ομάδας</item>
+        <item lang="el" id="default_configuration_products">Προιόντα προεπιλεγμένης διαμόρφωσης</item>
+        <item lang="el" id="add_product_class">Προσθήκη Κλάσης Προϊόντος</item>
+        <item lang="el" id="add_new_steps">Καινούργιο Βήμα</item>
+        <item lang="el" id="add_step">Προσθήκη Βήματος</item>
+        <item lang="el" id="all_configurable">Εμφάνιση όλων των διαμορφωμένων προϊόντων</item>
+        <item lang="el" id="add_configurable_product">Προσθήκη διαμορφωμένων προϊόντων</item>
+        <item lang="el" id="compatible_classes">Συμβατές κατηγορίες</item>
+        <item lang="el" id="new_class">Νέα κλάση</item>
+        <item lang="el" id="editing_class">Επεξεργασία κλάσης</item>
+
+        <item lang="es" id="steps">Pasos</item>
+        <item lang="es" id="product_classes">Clases de compatibilidad</item>
+        <item lang="es" id="required_configuration_group"><![CDATA[Usted no puede borrar el producto <b>[product_name]</b>  porque está en el grupo requerido]]></item>
+        <item lang="es" id="product_configurator">Configurador de producto</item>
+        <item lang="es" id="step">Paso</item>
+        <item lang="es" id="group_name">Nombre del grupo</item>
+        <item lang="es" id="default_configuration_products">Configuración de productos por defecto</item>
+        <item lang="es" id="add_new_steps">Añadir nuevo paso(s)</item>
+        <item lang="es" id="all_configurable">Mostrar todos los productos configurables</item>
+        <item lang="es" id="add_configurable_product">Añadir producto configurable</item>
+
+        <item lang="fr" id="steps">Étapes</item>
+        <item lang="fr" id="product_classes">Classes de compatibilité</item>
+        <item lang="fr" id="required_configuration_group"><![CDATA[Vous ne pouvez pas supprimer le produit <b>[product_name]</b> car il est dans le groupe requis]]></item>
+        <item lang="fr" id="product_configurator">Configurateur de produit</item>
+        <item lang="fr" id="add_product_group">Ajouter un groupe de produits</item>
+        <item lang="fr" id="step">Étape</item>
+        <item lang="fr" id="group_name">Nom du groupe</item>
+        <item lang="fr" id="default_configuration_products">Configuration produits par défaut</item>
+        <item lang="fr" id="add_product_class">Ajouter une classe de produit</item>
+        <item lang="fr" id="add_new_steps">Ajouter des nouvelles étapes</item>
+        <item lang="fr" id="add_step">Ajouter une étape</item>
+        <item lang="fr" id="all_configurable">Montrer tous les produits configurables</item>
+        <item lang="fr" id="add_configurable_product">Ajouter un produit configurable</item>
+        <item lang="fr" id="compatible_classes">Classes compatibles</item>
+        <item lang="fr" id="new_class">Nouvelle classe</item>
+        <item lang="fr" id="editing_class">Édition de la classe</item>
+
+        <item lang="it" id="steps">Passi</item>
+        <item lang="it" id="product_classes">Classi compatibilità</item>
+        <item lang="it" id="required_configuration_group"><![CDATA[Non puoi cancellare il <b>[product_name]</b> prodotto perché è nel gruppo obbligatorio]]></item>
+        <item lang="it" id="pconf_company_update_denied">L'opzione 'Negozio' non è modificabile per la configurazione prodotti o per i prodotti nel configuratore di gruppi o classi.</item>
+        <item lang="it" id="configurable">Configurabile</item>
+        <item lang="it" id="product_configurator">Configuratore prodotto</item>
+        <item lang="it" id="only_product_groups_notice">Sono elencanti solo i gruppi di prodotto con procedure assegnate. È possibile assegnare procedura sul</item>
+        <item lang="it" id="product_groups_page">Pagina gruppi prodotto</item>
+        <item lang="it" id="add_product_group">Aggiungi gruppo prodotto</item>
+        <item lang="it" id="group_name">Nome gruppo</item>
+        <item lang="it" id="default_configuration_products">Configurazione prodotti predefinita</item>
+        <item lang="it" id="add_product_class">Aggiungi classe prodotto</item>
+        <item lang="it" id="add_new_steps">Nuovo passaggio</item>
+        <item lang="it" id="add_step">Aggiungi passaggio</item>
+        <item lang="it" id="all_configurable">Visualizza tutti i prodotti configurabili</item>
+        <item lang="it" id="add_configurable_product">Aggiungi prodotto configurabile</item>
+        <item lang="it" id="compatible_classes">Classi compatibili</item>
+        <item lang="it" id="new_class">Nuova classe</item>
+        <item lang="it" id="editing_class">Modifica classe</item>
+
+        <item lang="no" id="steps">Trinn</item>
+        <item lang="no" id="product_classes">Kompatibilitetsklasser</item>
+        <item lang="no" id="required_configuration_group"><![CDATA[Du kan ikke slette <b>[product_name]</b> produktet fordi det er i gruppen obligatorisk]]></item>
+        <item lang="no" id="configurable">Konfigurerbar</item>
+        <item lang="no" id="product_configurator">Produktkonfigurator</item>
+        <item lang="no" id="add_product_group">Legg til produktgruppe</item>
+        <item lang="no" id="step">Trinn</item>
+        <item lang="no" id="group_name">Gruppenavn</item>
+        <item lang="no" id="default_configuration_products">Standardkonfigurasjon produkter</item>
+        <item lang="no" id="add_product_class">Legg til Produktklasse</item>
+        <item lang="no" id="add_new_steps">Nytt steg</item>
+        <item lang="no" id="add_step">Legg til trinn</item>
+        <item lang="no" id="all_configurable">Vis alle konfigurerbare produkter</item>
+        <item lang="no" id="add_configurable_product">Legg til konfigurerbart produktet</item>
+        <item lang="no" id="compatible_classes">Kompatible klasser</item>
+        <item lang="no" id="new_class">Ny klasse</item>
+        <item lang="no" id="editing_class">Redigerer klasse</item>
+
+        <item lang="ro" id="steps">Pași</item>
+        <item lang="ro" id="product_classes">Compatilbilitatea claselor</item>
+        <item lang="ro" id="required_configuration_group"><![CDATA[Nu puteți șerge produsul <b>[product_name]</b> pentru că se află în grupul produselor necesare]]></item>
+        <item lang="ro" id="configurable">Configurabil</item>
+        <item lang="ro" id="product_configurator">Configuratorul produsului</item>
+        <item lang="ro" id="add_product_group">Adăugați un produs grup</item>
+        <item lang="ro" id="step">Pas</item>
+        <item lang="ro" id="group_name">Numele grupului</item>
+        <item lang="ro" id="default_configuration_products">Configurația produselor implicită</item>
+        <item lang="ro" id="add_product_class">Adăugați o clasă nouă de produse</item>
+        <item lang="ro" id="add_new_steps">Adăugați un pas nou</item>
+        <item lang="ro" id="add_step">Adăugați pas</item>
+        <item lang="ro" id="all_configurable">Arâtați toate produsele configurabile</item>
+        <item lang="ro" id="add_configurable_product">Adăugați un produs configurabil</item>
+        <item lang="ro" id="compatible_classes">Clase compatibile</item>
+        <item lang="ro" id="new_class">Clasă nouă</item>
+        <item lang="ro" id="editing_class">Editare clasă</item>
+
+        <item lang="ru" id="steps">Шаги</item>
+        <item lang="ru" id="product_classes">Классы совместимости</item>
+        <item lang="ru" id="required_configuration_group"><![CDATA[Невозможно удалить товар <b>[product_name]</b>, потому что он находится в требуемой группе]]></item>
+        <item lang="ru" id="configurable">Конфигурируемый</item>
+        <item lang="ru" id="product_configurator">Конфигуратор товара</item>
+        <item lang="ru" id="only_product_groups_notice">Отображаются только группы товаров с заданными шагами. Вы можете назначить действия на</item>
+        <item lang="ru" id="product_groups_page">Страница продукта группы</item>
+        <item lang="ru" id="add_product_group">Добавить группу товаров</item>
+        <item lang="ru" id="step">Шаг</item>
+        <item lang="ru" id="group_name">Имя группы</item>
+        <item lang="ru" id="default_configuration_products">Товары с конфигурацией по умолчанию</item>
+        <item lang="ru" id="add_product_class">Добавить класс товаров</item>
+        <item lang="ru" id="add_new_steps">Добавить шаг(и)</item>
+        <item lang="ru" id="add_step">Добавить шаг</item>
+        <item lang="ru" id="all_configurable">Показать все конфигурируемые товары</item>
+        <item lang="ru" id="add_configurable_product">Добавить конфигурируемый товар</item>
+        <item lang="ru" id="compatible_classes">Совместимые классы</item>
+        <item lang="ru" id="new_class">Новый класс</item>
+        <item lang="ru" id="editing_class">Редактирование класса</item>
+
+        <item lang="sl" id="steps">Koraki</item>
+        <item lang="sl" id="product_classes">Vrste kompatibilnosti</item>
+        <item lang="sl" id="required_configuration_group"><![CDATA[Izdelka <b>[product_name]</b> ne morete izbrisati, saj je v zahtevani skupini]]></item>
+        <item lang="sl" id="configurable">Oblikovalen</item>
+        <item lang="sl" id="product_configurator">Oblikovalec proizvoda</item>
+        <item lang="sl" id="add_product_group">Dodaj skupino izdelkov</item>
+        <item lang="sl" id="step">Korak</item>
+        <item lang="sl" id="group_name">Ime skupine</item>
+        <item lang="sl" id="default_configuration_products">Privzeto oblikovanje proizvodov</item>
+        <item lang="sl" id="add_product_class">Dodaj razred izdelka</item>
+        <item lang="sl" id="add_new_steps">Dodaj nov/e korak/e</item>
+        <item lang="sl" id="add_step">Dodaj korak</item>
+        <item lang="sl" id="all_configurable">Prikaži vse oblikovalne proizvode</item>
+        <item lang="sl" id="add_configurable_product">Dodaj oblikovalne proizvode</item>
+        <item lang="sl" id="compatible_classes">Kompatibilne vrste</item>
+        <item lang="sl" id="new_class">Nov razred</item>
+        <item lang="sl" id="editing_class">Urejanje razreda</item>
+
+        <item lang="zh" id="steps">步骤</item>
+        <item lang="zh" id="product_classes">兼容表</item>
+        <item lang="zh" id="required_configuration_group"><![CDATA[您不能删除<b>[product_name]</b>这个产品因为因为它在需求组中]]></item>
+        <item lang="zh" id="buy_together_is_not_compatible_with_configurator">[product_name] 产品无法添加到组合中.一起购买与此产品附加配置不一致</item>
+        <item lang="zh" id="configurable">配置</item>
+        <item lang="zh" id="product_configurator">产品配置</item>
+        <item lang="zh" id="only_product_groups_notice">只有列出产品组分配步骤,你可以指定的步骤</item>
+        <item lang="zh" id="product_groups_page">产品组页面</item>
+        <item lang="zh" id="add_product_group">添加产品组</item>
+        <item lang="zh" id="step">步骤</item>
+        <item lang="zh" id="group_name">组名称</item>
+        <item lang="zh" id="default_configuration_products">默认配置产品</item>
+        <item lang="zh" id="add_product_class">添加产品类</item>
+        <item lang="zh" id="add_new_steps">添加新步骤</item>
+        <item lang="zh" id="add_step">添加步骤</item>
+        <item lang="zh" id="all_configurable">显示所有可配置的产品</item>
+        <item lang="zh" id="add_configurable_product">添加产品配置</item>
+        <item lang="zh" id="compatible_classes">兼容类</item>
+        <item lang="zh" id="new_class">新表</item>
+        <item lang="zh" id="editing_class">编辑表</item>
+    </language_variables>
+    <queries>
+        <item>DROP TABLE IF EXISTS ?:conf_class_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_class_products;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_classes;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_compatible_classes;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_group_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_group_products;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_groups;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_product_groups;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_step_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:conf_steps;</item>
+        <item>
+            CREATE TABLE `?:conf_class_descriptions` (
+                `class_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `class_name` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`class_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_class_products` (
+                `class_id` mediumint(8) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                KEY `class_id` (`class_id`,`product_id`),
+                KEY `product_id` (`product_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>CREATE TABLE `?:conf_classes` (
+                `class_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `status` char(1) NOT NULL default 'A',
+                `group_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`class_id`),
+                KEY `group_id` (`group_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_compatible_classes` (
+                `master_class_id` mediumint(8) unsigned NOT NULL default '0',
+                `slave_class_id` mediumint(8) unsigned NOT NULL default '0',
+                KEY `master_class_id` (`master_class_id`,`slave_class_id`),
+                KEY `slave_class_id` (`slave_class_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_group_descriptions` (
+                `group_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `configurator_group_name` varchar(255) NOT NULL default '',
+                `full_description` mediumtext NOT NULL,
+                PRIMARY KEY  (`group_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_group_products` (
+                `group_id` mediumint(8) unsigned NOT NULL default '0',
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                KEY `group_id` (`group_id`,`product_id`),
+                KEY `product_id` (`product_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_groups` (
+                `group_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `configurator_group_type` char(1) NOT NULL default 'S',
+                `status` char(1) NOT NULL default 'A',
+                `step_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`group_id`),  KEY `step_id` (`step_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_product_groups` (
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `group_id` mediumint(8) unsigned NOT NULL default '0',
+                `default_product_ids` text NOT NULL,
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `required` char(1) NOT NULL default 'N',
+                KEY `group_id` (`group_id`,`product_id`,`required`),
+                KEY `product_id` (`product_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_step_descriptions` (
+                `step_id` mediumint(8) unsigned NOT NULL default '0',
+                `lang_code` char(2) NOT NULL default '',
+                `step_name` varchar(255) NOT NULL default '',
+                PRIMARY KEY  (`step_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:conf_steps` (
+                `step_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `position` smallint(5) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'A',
+                PRIMARY KEY  (`step_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:conf_classes`
+            ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `company_id` (`company_id`);
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:conf_groups`
+            ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `company_id` (`company_id`);
+        </item>
+        <item editions="ULTIMATE">
+            ALTER TABLE `?:conf_steps`
+            ADD COLUMN `company_id` int(11) unsigned NOT NULL DEFAULT '0',
+            ADD KEY `company_id` (`company_id`);
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_class_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_class_products;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_classes;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_compatible_classes;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_group_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_group_products;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_groups;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_product_groups;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_step_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:conf_steps;</item>
+    </queries>
+</addon>

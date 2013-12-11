@@ -1,0 +1,48 @@
+/* product configurator */
+.product-configuration td {
+    padding: 10px 15px;
+}
+.product-configuration tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+.product-configuration .field-title .info-field-title {
+    margin-top: 21px;
+}
+.product-configuration span.price {
+    font: normal 100% Arial, Helvetica, sans-serif;
+}
+.product-main-info .pconf-buttons .buttons-container {
+    display: inline-block;
+    padding: 0;
+}
+.product-configuration .info-field-title {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.product-configuration .info-field-title-wrap {
+    padding: 0;
+}
+.product-configuration .info-field-title span {
+    font-size: 145%;
+}
+.product-configuration select{
+    max-width: 800px;
+}
+.pconf-buttons {
+    margin-top: 30px;
+    padding: 17px 20px;
+    border-top: 1px solid #ddd;
+    border-radius: 0px 0px 3px 3px;
+}
+.pconf-buttons .buttons-container {
+    margin-top: 0;
+    border: none;
+}
+.pconf-buttons .add-buttons-wrap, .pconf-buttons .add-buttons-inner-wrap {
+    padding-bottom: 0;
+    background: none;
+}
+/* product configurator */
