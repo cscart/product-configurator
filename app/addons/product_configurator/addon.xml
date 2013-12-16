@@ -82,6 +82,18 @@
         <item id="configurator_menu_description" lang="el">Προσδιορίστε το σύνολο των παραμέτρων και τα γνωρίσματα για διαμορφώσημα προϊόντα..</item>
         <item id="configurator_menu_description" lang="bg">Определяне на набор от параметри и атрибути за конфигурируеми продукти.</item>
 
+        <item id="configurator_new_group" lang="en">New group</item>
+        <item id="configurator_new_group" lang="ru">Новая группа</item>
+        <item id="configurator_new_group" lang="zh">新的组合</item>
+        <item id="configurator_new_group" lang="it">Nuovo gruppo</item>
+        <item id="configurator_new_group" lang="el">Νέα ομάδα</item>
+        <item id="configurator_new_group" lang="bg">Нова група</item>
+        <item id="configurator_new_group" lang="ro">Grup nou</item>
+        <item id="configurator_new_group" lang="sl">Nova skupina</item>
+        <item id="configurator_new_group" lang="no">Ny gruppe</item>
+        <item id="configurator_new_group" lang="da">Ny grup</item>
+        <item id="configurator_new_group" lang="fr">Nouveau groupe</item>
+
         <item id="product_configuration" lang="en">Product configuration</item>
         <item id="product_configuration" lang="ru">Конфигурация товара</item>
         <item id="product_configuration" lang="zh">产品配置</item>
@@ -94,6 +106,19 @@
         <item id="product_configuration" lang="fr">Configuration du produit</item>
         <item id="product_configuration" lang="es">Configuración de producto</item>
         <item id="product_configuration" lang="no">Produktkonfigurasjon</item>
+
+        <item id="update_class" lang="en">Update class</item>
+        <item id="update_class" lang="ru">Обновить класс</item>
+        <item id="update_class" lang="zh">更新类</item>
+        <item id="update_class" lang="it">Aggiorna classe</item>
+        <item id="update_class" lang="el">Ενημέρωση κλάσης</item>
+        <item id="update_class" lang="bg">Актуализация клас</item>
+        <item id="update_class" lang="ro">Actualizați clasă</item>
+        <item id="update_class" lang="sl">Osveži vrsto</item>
+        <item id="update_class" lang="no">Oppdater klasse</item>
+        <item id="update_class" lang="da">Opdater class</item>
+        <item id="update_class" lang="fr">Mise à jour classe</item>
+        <item id="update_class" lang="es">Actualizar clase</item>
 
         <item lang="en" id="product_group">Product group</item>
         <item lang="bg" id="product_group">Продуктова група</item>

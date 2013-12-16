@@ -76,7 +76,7 @@
 </form>
 {/capture}
 {if !$id}
-    {assign var="title" value=__("new_group")}
+    {assign var="title" value=__("configurator_new_group")}
 {else}
     {assign var="title" value="{__("editing_group")}: `$configurator_group.configurator_group_name`"}
 {/if}
